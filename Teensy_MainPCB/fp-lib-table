@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name "doit-esp32-devkit-kicad-master")(type "KiCad")(uri "${KIPRJMOD}/doit-esp32-devkit-kicad-master")(options "")(descr ""))
+  (lib (name "gy521")(type "KiCad")(uri "${KIPRJMOD}/gy521")(options "")(descr ""))
+  (lib (name "teensy")(type "KiCad")(uri "${KIPRJMOD}/teensy.pretty-master")(options "")(descr ""))
+  (lib (name "teensy_library-master")(type "KiCad")(uri "${KIPRJMOD}/teensy_library-master")(options "")(descr ""))
+)
