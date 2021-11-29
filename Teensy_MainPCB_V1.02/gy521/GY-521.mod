@@ -1,0 +1,78 @@
+PCBNEW-LibModule-V1  mié 20 may 2015 20:31:01 CLT
+# encoding utf-8
+Units mm
+$INDEX
+GY-521
+$EndINDEX
+$MODULE GY-521
+Po 0 0 0 15 555D191F 00000000 ~~
+Li GY-521
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -1.27 1 1 0 0.15 N V 21 N "GY-521"
+T1 0 1.27 1 1 0 0.15 N V 21 N "VAL**"
+DC -7.62 -5.08 -6.35 -5.08 0.15 21
+DC 7.62 -5.08 8.89 -5.08 0.15 21
+DS -10.16 -7.8105 10.16 -7.8105 0.15 21
+DS 10.16 -7.8105 10.16 7.8105 0.15 21
+DS 10.16 7.8105 -10.16 7.8105 0.15 21
+DS -10.16 7.8105 -10.16 -7.8105 0.15 21
+$PAD
+Sh "1" C 2 2 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 6.35
+$EndPAD
+$PAD
+Sh "2" C 2 2 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 6.35
+$EndPAD
+$PAD
+Sh "3" C 2 2 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 6.35
+$EndPAD
+$PAD
+Sh "4" C 2 2 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 6.35
+$EndPAD
+$PAD
+Sh "5" C 2 2 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 6.35
+$EndPAD
+$PAD
+Sh "6" C 2 2 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 6.35
+$EndPAD
+$PAD
+Sh "7" C 2 2 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 6.35
+$EndPAD
+$PAD
+Sh "8" C 2 2 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 6.35
+$EndPAD
+$EndMODULE GY-521
+$EndLIBRARY

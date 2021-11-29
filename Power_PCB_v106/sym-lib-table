@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name charge_pcb-rescue)(type Legacy)(uri ${KIPRJMOD}/charge_pcb-rescue.lib)(options "")(descr ""))
+  (lib (name JS_Sensors)(type Legacy)(uri C:/Users/berna/Documents/GitHub/KiCAD-MyLibrary/symbols/JS_Sensors.lib)(options "")(descr ""))
+  (lib (name test)(type Legacy)(uri ${KIPRJMOD}/test.lib)(options "")(descr ""))
+  (lib (name Sense_I2C)(type Legacy)(uri ${KIPRJMOD}/Sense_I2C.lib)(options "")(descr ""))
+)

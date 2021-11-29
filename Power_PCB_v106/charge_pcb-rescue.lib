@@ -1,0 +1,152 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# ACS712-Lötpad_2,5mm
+#
+DEF ACS712-Lötpad_2,5mm U 0 40 Y Y 1 F N
+F0 "U" 0 250 50 H V C CNN
+F1 "ACS712-Lötpad_2,5mm" 0 -250 50 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S -250 200 250 -200 0 1 0 f
+X VCC 1 400 100 150 L 50 50 1 1 W
+X GND 2 400 -100 150 L 50 50 1 1 W
+X OUT 3 400 0 150 L 50 50 1 1 O
+X IP+ 4 -400 100 150 R 50 50 1 1 I
+X IP- 5 -400 -100 150 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# BC548BTA-dk_Transistors-Bipolar-BJT-Single
+#
+DEF BC548BTA-dk_Transistors-Bipolar-BJT-Single Q 0 0 Y Y 1 F N
+F0 "Q" -126 166 60 H V L CNN
+F1 "BC548BTA-dk_Transistors-Bipolar-BJT-Single" 206 0 60 V V C CNN
+F2 "digikey-footprints:TO-92-3_Formed_Leads" 200 200 60 H I L CNN
+F3 "https://media.digikey.com/pdf/Data%20Sheets/ON%20Semiconductor%20PDFs/BC546-50.pdf" 200 300 60 H I L CNN
+F4 "BC548BTACT-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "BC548BTA" 200 500 60 H I L CNN "MPN"
+F6 "Discrete Semiconductor Products" 200 600 60 H I L CNN "Category"
+F7 "Transistors - Bipolar (BJT) - Single" 200 700 60 H I L CNN "Family"
+F8 "https://media.digikey.com/pdf/Data%20Sheets/ON%20Semiconductor%20PDFs/BC546-50.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/on-semiconductor/BC548BTA/BC548BTACT-ND/4553029" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "TRANS NPN 30V 0.1A TO-92" 200 1000 60 H I L CNN "Description"
+F11 "ON Semiconductor" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+C 0 0 128 0 1 0 f
+P 2 0 1 0 -150 0 -100 0 N
+P 2 0 1 0 -140 0 0 0 N
+P 2 0 1 0 0 -50 100 -100 N
+P 2 0 1 0 0 50 100 100 N
+P 2 0 1 0 0 100 0 -100 N
+P 4 0 1 0 60 -50 80 -90 40 -100 60 -50 F
+X C 1 100 200 100 D 50 50 1 1 P
+X B 2 -200 0 100 R 50 50 1 1 I
+X E 3 100 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# DIODE-Lötpad_2,5mm
+#
+DEF DIODE-Lötpad_2,5mm D 0 40 N N 1 F N
+F0 "D" 0 100 40 H V C CNN
+F1 "DIODE-Lötpad_2,5mm" 0 -100 40 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ D?
+ S*
+$ENDFPLIST
+DRAW
+P 2 0 1 6 50 50 50 -50 N
+P 3 0 1 0 -50 50 50 0 -50 -50 F
+X A 1 -200 0 150 R 40 40 1 1 P
+X K 2 200 0 150 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# FUSE-Zimprich
+#
+DEF FUSE-Zimprich F 0 10 Y Y 1 F N
+F0 "F" 100 50 50 H V C CNN
+F1 "FUSE-Zimprich" -100 -50 50 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+A -75 0 75 1 1799 0 1 0 N 0 0 -150 0
+A 75 0 75 -1799 -1 0 1 0 N 0 0 150 0
+X ~ 1 -250 0 100 R 40 40 1 1 I
+X ~ 2 250 0 100 L 40 40 1 1 I
+ENDDRAW
+ENDDEF
+#
+# GND-Lötpad_2,5mm
+#
+DEF GND-Lötpad_2,5mm #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 60 H I C CNN
+F1 "GND-Lötpad_2,5mm" 0 -150 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# HEADER_2-Zimprich
+#
+DEF HEADER_2-Zimprich J 0 0 Y Y 1 F N
+F0 "J" 0 150 60 H V C CNN
+F1 "HEADER_2-Zimprich" 0 -150 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S 100 100 0 -100 0 1 0 N
+X ~ 1 -100 50 100 R 35 50 1 1 P
+X ~ 2 -100 -50 100 R 35 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# IRLML6344TRPBF-dk_Transistors-FETs-MOSFETs-Single
+#
+DEF IRLML6344TRPBF-dk_Transistors-FETs-MOSFETs-Single Q 0 0 Y Y 1 F N
+F0 "Q" -106 143 60 H V R CNN
+F1 "IRLML6344TRPBF-dk_Transistors-FETs-MOSFETs-Single" 136 0 60 V V C CNN
+F2 "digikey-footprints:SOT-23-3" 200 200 60 H I L CNN
+F3 "https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c" 200 300 60 H I L CNN
+F4 "IRLML6344TRPBFCT-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "IRLML6344TRPBF" 200 500 60 H I L CNN "MPN"
+F6 "Discrete Semiconductor Products" 200 600 60 H I L CNN "Category"
+F7 "Transistors - FETs, MOSFETs - Single" 200 700 60 H I L CNN "Family"
+F8 "https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/infineon-technologies/IRLML6344TRPBF/IRLML6344TRPBFCT-ND/2538168" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "MOSFET N-CH 30V 5A SOT23" 200 1000 60 H I L CNN "Description"
+F11 "Infineon Technologies" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+C -50 0 130 0 1 0 f
+C 0 -75 5 0 1 0 N
+C 0 -55 5 0 1 0 N
+C 0 75 5 0 1 0 N
+P 2 0 1 0 0 -55 -100 -55 N
+P 3 0 1 0 -200 -100 -120 -100 -120 55 N
+P 3 0 1 0 0 -100 0 0 -100 0 N
+P 3 0 1 0 0 100 0 55 -100 55 N
+P 5 0 1 0 -5 -75 40 -75 40 55 40 75 -5 75 N
+P 2 1 1 0 -100 -55 -100 -75 N
+P 2 1 1 0 -100 -55 -100 -35 N
+P 2 1 1 0 -100 0 -100 -20 N
+P 2 1 1 0 -100 0 -100 20 N
+P 2 1 1 0 -100 75 -100 35 N
+P 2 1 1 0 60 20 20 20 N
+P 4 1 1 0 -100 0 -70 20 -70 -20 -100 0 F
+P 4 1 1 0 40 20 20 -10 60 -10 40 20 F
+X G 1 -300 -100 100 R 50 50 1 1 B
+X S 2 0 -200 100 U 50 50 1 1 B
+X D 3 0 200 100 D 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+#End Library

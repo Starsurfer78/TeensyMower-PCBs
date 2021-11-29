@@ -170,7 +170,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "./",
-      "specctra_dsn": "",
+      "specctra_dsn": "TeensyPCB_1.dsn",
       "step": "",
       "vrml": ""
     },
@@ -208,7 +208,7 @@
   },
   "sheets": [
     [
-      "a716b4c8-39bd-4680-aebe-f39fd40c6b79",
+      "f1dcf56b-2d21-4540-9a0e-332e75d62138",
       ""
     ]
   ],
