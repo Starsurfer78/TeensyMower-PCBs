@@ -32,3 +32,4 @@ Robomow RL2000:
 Tianchen TC-G158:
 ![Vorschau Power PCB](https://www.diy-robot-lawn-mower.com/attachments/mower-jpg.82)
 
+
