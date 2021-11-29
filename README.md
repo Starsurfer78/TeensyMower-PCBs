@@ -27,9 +27,9 @@ Tested with MC33926 motor driver. Brushless Motordriver did not work at the Mome
 ![Vorschau Power PCB](https://github.com/Starsurfer78/T-Mow/blob/main/Power_PCB_v106/charge_pcb.jpg)
 
 Robomow RL2000:
-![Vorschau Power PCB](https://www.diy-robot-lawn-mower.com/attachments/rl2000-teensy-1-jpg.84)
+![Vorschau Power PCB](https://github.com/Starsurfer78/T-Mow/blob/main/rl2000%20teensy%203.jpg)
 
 Tianchen TC-G158:
-![Vorschau Power PCB](https://www.diy-robot-lawn-mower.com/attachments/mower-jpg.82)
+![Vorschau Power PCB](https://github.com/Starsurfer78/T-Mow/blob/main/Mower.jpg)
 
 
