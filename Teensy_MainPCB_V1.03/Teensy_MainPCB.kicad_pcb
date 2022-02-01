@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 95)
+    (drawings 96)
     (tracks 0)
     (zones 0)
     (modules 68)
@@ -3781,6 +3781,9 @@
     )
   )
 
+  (gr_text "Teensy MainPCB V1.03" (at 84.0232 130.94208) (layer F.SilkS)
+    (effects (font (size 2 2) (thickness 0.25)))
+  )
   (gr_text IN (at 99.97948 62.57036 -90) (layer F.SilkS) (tstamp 61F84EBE)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
