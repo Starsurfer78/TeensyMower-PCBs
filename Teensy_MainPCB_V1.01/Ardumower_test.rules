@@ -1,0 +1,136 @@
+
+(rules PCB Ardumower_test
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 7705)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.7)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.6)
+    )
+  )
+  (rule
+    (width 254.0)
+    (clear 254.2)
+    (clear 127.0 (type smd_to_turn_gap))
+    (clear 63.6 (type smd_smd))
+  )
+  (padstack "Via[0-1]_889:635_um"
+    (shape
+      (circle F.Cu 889.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 889.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_889:635_um" "Via[0-1]_889:635_um" default
+  )
+  (via 
+    "Via[0-1]_889:635_um-kicad_default" "Via[0-1]_889:635_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_889:635_um-24v" "Via[0-1]_889:635_um" 24v
+  )
+  (via 
+    "Via[0-1]_889:635_um-GND" "Via[0-1]_889:635_um" GND
+  )
+  (via 
+    "Via[0-1]_889:635_um-Power" "Via[0-1]_889:635_um" Power
+  )
+  (via_rule
+    default "Via[0-1]_889:635_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_889:635_um-kicad_default"
+  )
+  (via_rule
+    24v "Via[0-1]_889:635_um-24v"
+  )
+  (via_rule
+    GND "Via[0-1]_889:635_um-GND"
+  )
+  (via_rule
+    Power "Via[0-1]_889:635_um-Power"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 254.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    SCL1 SDA1 pinMotorRightSense pinMotorRightFault IOREV pinMotorRightPWM pinMotorEnable pinMotorRightDir
+    pinMotorLeftSense pinMotorLeftFault pinMotorLeftPWM pinMotorLeftDir pinMotorMowSense pinMotorMowFault pinMotorMowPWM pinMotorMowDir
+    pinMotorMowEnable pinDropLeft pinBumperLeft pinBumperRight pinDropRight pinBuzzer pinRemoteSwitch pinButton
+    pinUserSwitch3 pinUserSwitch2 pinUserSwitch1 pinRain pinSonarLeftEcho pinTilt pinSonarLeftTrigger pinSonarRightEcho
+    pinSonarRightTrigger pinSonarCenterTrigger pinSonarCenterEcho pinChargeVoltage pinChargeCurrent pinPerimeterLeft pinPerimeterRight pinBatteryVoltage
+    pinRemoteSteer pinRemoteMow pinRemoteSpeed pinBatterySwitch SCL0 SDA0 "Net-(C1-Pad2)" TX0
+    RX0 TX2 RX2 TX1 RX1 "Net-(D1-Pad2)" "Net-(D2-Pad2)" "Net-(J13-Pad3)"
+    "Net-(JP2-Pad2)" "Net-(J26-Pad1)" "Net-(J19-Pad3)" "Net-(J27-Pad1)" "Net-(J28-Pad1)" "Net-(D7-Pad2)" "Net-(D7-Pad1)" "Net-(D8-Pad2)"
+    "Net-(D8-Pad1)" RX3 TX3 pinReserveA10 pinReserveD9 pinReserveD8 "Net-(J38-Pad1)" "Net-(J39-Pad1)"
+    pinOdometryRight pinOdometryLeft "Net-(J42-Pad1)" pinOdometryRight2 pinOdometryLeft2 pinMotorRight2Dir pinMotorRight2PWM pinMotorLeft2Dir
+    pinMotorLeft2PWM pinMotorRight2Enable pinMotorLeft2Enable pinReserveD13 pinMotorLeftEnable pinMotorMow1Sense pinChargeEnable
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 254.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class 24v
+    (clearance_class 24v)
+    (via_rule 24v)
+    (rule
+      (width 500.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class GND
+    GND
+    (clearance_class GND)
+    (via_rule GND)
+    (rule
+      (width 500.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class Power
+    +9V +5V +3V3 "DUE_5V" "DUE_3.3V"
+    (clearance_class Power)
+    (via_rule Power)
+    (rule
+      (width 354.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)

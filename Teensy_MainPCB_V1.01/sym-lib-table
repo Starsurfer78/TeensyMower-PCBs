@@ -1,5 +1,5 @@
 (sym_lib_table
-  (lib (name "doit-esp32-devkit-v1")(type "Legacy")(uri "${KIPRJMOD}/doit-esp32-devkit-kicad-master/doit-esp32-devkit-v1.lib")(options "")(descr ""))
-  (lib (name "gy-521")(type "Legacy")(uri "${KIPRJMOD}/gy521/gy-521.lib")(options "")(descr ""))
-  (lib (name "teensy")(type "KiCad")(uri "${KIPRJMOD}/teensy_library-master/teensy.kicad_sym")(options "")(descr ""))
+  (lib (name Ardumower-rescue)(type Legacy)(uri ${KIPRJMOD}/Ardumower-rescue.lib)(options "")(descr ""))
+  (lib (name teensy)(type Legacy)(uri ${KIPRJMOD}/teensy_library-master/teensy.lib)(options "")(descr ""))
+  (lib (name doit-esp32-devkit-v1)(type Legacy)(uri ${KIPRJMOD}/doit-esp32-devkit-kicad-master/doit-esp32-devkit-v1.lib)(options "")(descr ""))
 )
