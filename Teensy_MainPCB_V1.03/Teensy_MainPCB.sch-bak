@@ -311,8 +311,6 @@ F 3 "~" H 3100 850 50  0001 C CNN
 	1    3100 850 
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	2950 850  2800 850 
 $Comp
 L power:GND #PWR042
 U 1 1 608BA949
@@ -325,7 +323,7 @@ F 3 "" H 2400 850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Ardumower-rescue:LED-Zimprich D2
+L Device:LED D2
 U 1 1 608BB0E1
 P 2600 850
 F 0 "D2" H 2600 605 50  0000 C CNN
@@ -336,27 +334,27 @@ F 3 "" H 2600 850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ardumower-rescue:SPEAKER-Lötpad_2,5mm SP1
+L Device:Speaker SP1
 U 1 1 607B6900
-P 9715 5855
-F 0 "SP1" H 9993 5916 70  0000 L CNN
-F 1 "SPEAKER" H 9993 5795 70  0000 L CNN
-F 2 "Zimprich:Buzzer_12x9.5RM7.6" H 9715 5855 60  0001 C CNN
-F 3 "" H 9715 5855 60  0000 C CNN
-	1    9715 5855
+P 9765 5755
+F 0 "SP1" H 10043 5816 70  0000 L CNN
+F 1 "SPEAKER" H 10043 5695 70  0000 L CNN
+F 2 "Zimprich:Buzzer_12x9.5RM7.6" H 9765 5755 60  0001 C CNN
+F 3 "" H 9765 5755 60  0000 C CNN
+	1    9765 5755
 	1    0    0    -1  
 $EndComp
-Text GLabel 9415 5955 0    50   Input ~ 0
+Text GLabel 9565 5855 0    50   Input ~ 0
 pinBuzzer
 $Comp
 L power:GND #PWR035
 U 1 1 60932E8B
-P 9415 5755
-F 0 "#PWR035" H 9415 5505 50  0001 C CNN
-F 1 "GND" V 9420 5627 50  0000 R CNN
-F 2 "" H 9415 5755 50  0001 C CNN
-F 3 "" H 9415 5755 50  0001 C CNN
-	1    9415 5755
+P 9565 5755
+F 0 "#PWR035" H 9565 5505 50  0001 C CNN
+F 1 "GND" V 9570 5627 50  0000 R CNN
+F 2 "" H 9565 5755 50  0001 C CNN
+F 3 "" H 9565 5755 50  0001 C CNN
+	1    9565 5755
 	0    1    1    0   
 $EndComp
 $Comp
@@ -2168,4 +2166,8 @@ Wire Wire Line
 Wire Wire Line
 	1065 2595 965  2595
 Connection ~ 965  2595
+Wire Wire Line
+	2400 850  2450 850 
+Wire Wire Line
+	2750 850  2950 850 
 $EndSCHEMATC
