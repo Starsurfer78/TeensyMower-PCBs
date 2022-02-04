@@ -700,22 +700,6 @@ pinBuzzer
 NoConn ~ 5135 3080
 NoConn ~ 2935 3080
 NoConn ~ 11180 5820
-Wire Wire Line
-	1640 1160 1390 1160
-Wire Wire Line
-	1140 1160 1390 1160
-$Comp
-L Device:R R10
-U 1 1 6075BEEE
-P 1390 1310
-F 0 "R10" V 1290 1310 50  0000 C CNN
-F 1 "2KO" V 1390 1310 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1320 1310 50  0001 C CNN
-F 3 "~" H 1390 1310 50  0001 C CNN
-	1    1390 1310
-	-1   0    0    1   
-$EndComp
-Connection ~ 1390 1160
 $Comp
 L Device:R R9
 U 1 1 6075BEF9
@@ -727,8 +711,6 @@ F 3 "~" H 1640 1460 50  0001 C CNN
 	1    1640 1460
 	0    1    1    0   
 $EndComp
-Text GLabel 1260 1470 0    50   Output ~ 0
-pinPerimeterLeft
 Wire Wire Line
 	1640 1160 1640 1360
 Wire Wire Line
@@ -2155,13 +2137,6 @@ Wire Wire Line
 	3700 7055 3700 7250
 Connection ~ 3700 7250
 Wire Wire Line
-	1260 1470 1390 1470
-Wire Wire Line
-	1390 1470 1390 1460
-Wire Wire Line
-	1390 1460 1490 1460
-Connection ~ 1390 1460
-Wire Wire Line
 	890  2595 965  2595
 Wire Wire Line
 	1065 2595 965  2595
@@ -2170,4 +2145,29 @@ Wire Wire Line
 	2400 850  2450 850 
 Wire Wire Line
 	2750 850  2950 850 
+Wire Wire Line
+	1390 1460 1490 1460
+Wire Wire Line
+	1390 1470 1390 1460
+Connection ~ 1390 1460
+Connection ~ 1390 1160
+Wire Wire Line
+	1640 1160 1390 1160
+Wire Wire Line
+	1140 1160 1390 1160
+$Comp
+L Device:R R10
+U 1 1 6075BEEE
+P 1390 1310
+F 0 "R10" V 1290 1310 50  0000 C CNN
+F 1 "2KO" V 1390 1310 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1320 1310 50  0001 C CNN
+F 3 "~" H 1390 1310 50  0001 C CNN
+	1    1390 1310
+	-1   0    0    1   
+$EndComp
+Text GLabel 1260 1470 0    50   Output ~ 0
+pinPerimeterLeft
+Wire Wire Line
+	1260 1470 1390 1470
 $EndSCHEMATC

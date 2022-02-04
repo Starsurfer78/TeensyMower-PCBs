@@ -4,8 +4,8 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "Ardumower DUE Basic Board"
-Date "2021-04-06"
+Title "Teensy 4.1 MainPCB Board"
+Date "2022-02-01"
 Rev "v1.0"
 Comp ""
 Comment1 ""
