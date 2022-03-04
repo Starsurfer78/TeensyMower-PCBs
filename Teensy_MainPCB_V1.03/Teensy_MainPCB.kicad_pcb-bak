@@ -5133,7 +5133,7 @@
   (segment (start 77.9197 54.448) (end 75.4697 56.898) (width 0.254) (layer F.Cu) (net 82))
   (segment (start 75.4697 56.898) (end 74.391 56.898) (width 0.254) (layer F.Cu) (net 82))
 
-  (zone (net 3) (net_name GND) (layer F.Cu) (tstamp 61FAAE0A) (hatch edge 0.508)
+  (zone (net 3) (net_name GND) (layer F.Cu) (tstamp 622246E6) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))

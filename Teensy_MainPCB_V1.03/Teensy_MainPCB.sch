@@ -35,10 +35,6 @@ Text GLabel 5135 3780 2    50   Input ~ 0
 pinBumperLeft
 Text GLabel 5135 3680 2    50   Input ~ 0
 pinBumperRight
-Text GLabel 5135 2080 2    50   Input ~ 0
-pinPerimeterRight
-Text GLabel 5135 1980 2    50   Input ~ 0
-pinPerimeterLeft
 Text GLabel 5135 3580 2    50   Output ~ 0
 pinBuzzer
 Text GLabel 5135 3480 2    50   Input ~ 0
@@ -113,19 +109,6 @@ F 3 "~" H 1225 5010 50  0001 C CNN
 	1    1225 5010
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+3.3V #PWR011
-U 1 1 607A92DC
-P 725 4910
-F 0 "#PWR011" H 725 4760 50  0001 C CNN
-F 1 "+3.3V" H 740 5083 50  0000 C CNN
-F 2 "" H 725 4910 50  0001 C CNN
-F 3 "" H 725 4910 50  0001 C CNN
-	1    725  4910
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	725  4910 1025 4910
 Text GLabel 1025 5110 0    50   Input ~ 0
 pinRain
 $Comp
@@ -667,28 +650,6 @@ F 1 "+5V" V 5735 4358 50  0000 L CNN
 F 2 "" H 5720 4230 50  0001 C CNN
 F 3 "" H 5720 4230 50  0001 C CNN
 	1    5720 4230
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+5V #PWR0101
-U 1 1 60E6CE57
-P 5135 1680
-F 0 "#PWR0101" H 5135 1530 50  0001 C CNN
-F 1 "+5V" H 5150 1853 50  0000 C CNN
-F 2 "" H 5135 1680 50  0001 C CNN
-F 3 "" H 5135 1680 50  0001 C CNN
-	1    5135 1680
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR0102
-U 1 1 60E6F0CD
-P 5135 1780
-F 0 "#PWR0102" H 5135 1530 50  0001 C CNN
-F 1 "GND" H 5140 1607 50  0000 C CNN
-F 2 "" H 5135 1780 50  0001 C CNN
-F 3 "" H 5135 1780 50  0001 C CNN
-	1    5135 1780
 	0    -1   -1   0   
 $EndComp
 Text GLabel 2935 3280 0    50   BiDi ~ 0
@@ -2170,4 +2131,43 @@ Text GLabel 1260 1470 0    50   Output ~ 0
 pinPerimeterLeft
 Wire Wire Line
 	1260 1470 1390 1470
+Text GLabel 5135 1980 2    50   Input ~ 0
+pinPerimeterLeft
+Text GLabel 5135 2080 2    50   Input ~ 0
+pinPerimeterRight
+Wire Wire Line
+	725  4910 1025 4910
+$Comp
+L power:+3.3V #PWR011
+U 1 1 607A92DC
+P 725 4910
+F 0 "#PWR011" H 725 4760 50  0001 C CNN
+F 1 "+3.3V" H 740 5083 50  0000 C CNN
+F 2 "" H 725 4910 50  0001 C CNN
+F 3 "" H 725 4910 50  0001 C CNN
+	1    725  4910
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0101
+U 1 1 60E6CE57
+P 5135 1680
+F 0 "#PWR0101" H 5135 1530 50  0001 C CNN
+F 1 "+5V" H 5150 1853 50  0000 C CNN
+F 2 "" H 5135 1680 50  0001 C CNN
+F 3 "" H 5135 1680 50  0001 C CNN
+	1    5135 1680
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 60E6F0CD
+P 5135 1780
+F 0 "#PWR0102" H 5135 1530 50  0001 C CNN
+F 1 "GND" H 5140 1607 50  0000 C CNN
+F 2 "" H 5135 1780 50  0001 C CNN
+F 3 "" H 5135 1780 50  0001 C CNN
+	1    5135 1780
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

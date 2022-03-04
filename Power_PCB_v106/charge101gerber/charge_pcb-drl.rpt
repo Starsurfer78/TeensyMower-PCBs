@@ -1,0 +1,33 @@
+Drill report for C:/Users/berna/Documents/GitHub/AzuritBer/PCB/Charging_PCB/charge_pcb.kicad_pcb
+Created on 24/05/2021 15:17:10
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'charge_pcb-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.76mm  0.030"  (9 holes)
+    T2  0.80mm  0.031"  (24 holes)
+    T3  0.80mm  0.032"  (2 holes)
+    T4  0.90mm  0.035"  (8 holes)
+    T5  0.95mm  0.037"  (6 holes)
+    T6  1.00mm  0.039"  (2 holes)
+    T7  1.10mm  0.043"  (16 holes)
+    T8  1.50mm  0.059"  (4 holes)
+    T9  1.52mm  0.060"  (14 holes)
+    T10  1.52mm  0.060"  (2 holes)
+    T11  2.00mm  0.079"  (4 holes)
+    T12  3.20mm  0.126"  (6 holes)
+
+    Total plated holes count 97
+
+
+Drill file 'charge_pcb-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0

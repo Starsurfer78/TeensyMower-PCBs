@@ -1,32 +1,21 @@
 M48
-; DRILL file {KiCad (5.99.0-10988-gd8b1e827c7)} date Mon Nov 29 13:02:12 2021
+; DRILL file {KiCad (5.1.9)-1} date 07/22/21 19:31:05
 ; FORMAT={-:-/ absolute / metric / decimal}
-; #@! TF.CreationDate,2021-11-29T13:02:12+01:00
-; #@! TF.GenerationSoftware,Kicad,Pcbnew,(5.99.0-10988-gd8b1e827c7)
+; #@! TF.CreationDate,2021-07-22T19:31:05+02:00
+; #@! TF.GenerationSoftware,Kicad,Pcbnew,(5.1.9)-1
 ; #@! TF.FileFunction,Plated,1,2,PTH
 FMAT,2
 METRIC
-; #@! TA.AperFunction,Plated,PTH,ViaDrill
 T1C0.400
-; #@! TA.AperFunction,Plated,PTH,ComponentDrill
 T2C0.800
-; #@! TA.AperFunction,Plated,PTH,ComponentDrill
 T3C0.800
-; #@! TA.AperFunction,Plated,PTH,ComponentDrill
 T4C0.900
-; #@! TA.AperFunction,Plated,PTH,ComponentDrill
 T5C0.950
-; #@! TA.AperFunction,Plated,PTH,ComponentDrill
 T6C1.000
-; #@! TA.AperFunction,Plated,PTH,ComponentDrill
 T7C1.100
-; #@! TA.AperFunction,Plated,PTH,ComponentDrill
 T8C1.501
-; #@! TA.AperFunction,Plated,PTH,ComponentDrill
 T9C1.520
-; #@! TA.AperFunction,Plated,PTH,ComponentDrill
 T10C1.524
-; #@! TA.AperFunction,Plated,PTH,ComponentDrill
 T11C3.200
 %
 G90
