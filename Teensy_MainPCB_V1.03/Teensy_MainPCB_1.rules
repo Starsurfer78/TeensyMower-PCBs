@@ -5,13 +5,13 @@
   )
   (autoroute_settings
     (fanout off)
-    (eu.mihosoft.freerouting.autoroute on)
+    (app.freerouting.autoroute on)
     (postroute on)
     (vias on)
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 3389)
+    (start_pass_no 10)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -83,18 +83,14 @@
   (class "kicad_default"
     SCL1 SDA1 pinMotorRightPWM pinMotorRightDir pinMotorLeftPWM pinMotorLeftDir pinMotorMowPWM pinMotorMowDir
     pinMotorMowEnable pinBumperLeft pinBumperRight pinBuzzer pinButton pinRain pinPerimeterLeft pinPerimeterRight
-    pinBatterySwitch SCL0 SDA0 "Net-(D2-Pad2)" "Net-(J13-Pad3)" "Net-(J19-Pad3)" "Net-(D7-Pad2)" "Net-(D8-Pad2)"
-    RX3 TX3 pinMotorLeftEnable pinChargeEnable SCL2 SDA2 pinMotorRightEnable pinOdometryRight
-    pinOdometryLeft "Net-(D8-Pad1)" "Net-(JP1-Pad3)" "Net-(J1-Pad1)" "Net-(J6-Pad1)" "Net-(J7-Pad1)" "Net-(J11-Pad1)" RX1
-    TX1 "Net-(BT1-Pad1)" pinSonarRightEcho pinSonarRightTrigger pinSonarLeftEcho pinSonarLeftTrigger CRX3 CTX3
-    RX5 TX5 Free01 FreeA17 FreeA16 Free02 "Net-(J23-Pad5)" "Net-(J23-Pad4)"
-    "Net-(J23-Pad3)" "Net-(J24-Pad4)" "Net-(J24-Pad3)" "Net-(J24-Pad2)" "Net-(J24-Pad1)" "Net-(J26-Pad3)" "Net-(J26-Pad2)" "Net-(J27-Pad3)"
-    "Net-(J28-Pad4)" "Net-(J28-Pad3)" "Net-(J28-Pad2)" "Net-(J28-Pad1)" "Net-(J32-Pad3)" "Net-(J33-Pad4)" "Net-(J33-Pad3)" "Net-(J33-Pad2)"
-    "Net-(J33-Pad1)" "Net-(R18-Pad2)" "Net-(R19-Pad2)" "Net-(J34-Pad2)" "Net-(J34-Pad1)" "Net-(J24-Pad5)" "Net-(R7-Pad2)" "Net-(U2-Pad5)"
-    "Net-(U2-Pad6)" "Net-(U2-Pad7)" "Net-(U2-Pad8)" "Net-(U3-Pad49)" "Net-(U3-Pad59)" "Net-(U3-Pad58)" "Net-(U3-Pad57)" "Net-(U3-Pad56)"
-    "Net-(U3-Pad55)" "Net-(U3-Pad1)" "Net-(U3-Pad34)" "Net-(U3-Pad15)" "Net-(U3-Pad60)" "Net-(U3-Pad65)" "Net-(U3-Pad61)" "Net-(U3-Pad64)"
-    "Net-(U3-Pad63)" "Net-(U3-Pad62)" "Net-(U3-Pad51)" "Net-(U3-Pad53)" "Net-(U3-Pad67)" "Net-(U3-Pad66)" "Net-(U4-Pad17)" "Net-(U4-Pad19)"
-    "Net-(U4-Pad10)" "Net-(U4-Pad23)" "Net-(U4-Pad3)" "Net-(U4-Pad2)" "Net-(U4-Pad1)"
+    pinBatterySwitch SCL0 SDA0 "Net-(J13-Pad3)" "Net-(J19-Pad3)" "Net-(D7-Pad2)" RX3 TX3
+    pinMotorLeftEnable pinChargeEnable SCL2 SDA2 pinMotorRightEnable pinOdometryRight pinOdometryLeft "Net-(J1-Pad1)"
+    "Net-(J6-Pad1)" "Net-(J7-Pad1)" "Net-(J11-Pad1)" RX1 TX1 "Net-(BT1-Pad1)" pinSonarRightEcho pinSonarRightTrigger
+    pinSonarLeftEcho pinSonarLeftTrigger CRX3 CTX3 RX5 TX5 Free01 FreeA17
+    FreeA16 Free02 "Net-(J23-Pad5)" "Net-(J23-Pad4)" "Net-(J23-Pad3)" "Net-(J24-Pad4)" "Net-(J24-Pad3)" "Net-(J24-Pad2)"
+    "Net-(J24-Pad1)" "Net-(J26-Pad3)" "Net-(J26-Pad2)" "Net-(J27-Pad3)" "Net-(J28-Pad4)" "Net-(J28-Pad3)" "Net-(J28-Pad2)" "Net-(J28-Pad1)"
+    "Net-(J32-Pad3)" "Net-(J33-Pad4)" "Net-(J33-Pad3)" "Net-(J33-Pad2)" "Net-(J33-Pad1)" "Net-(R18-Pad2)" "Net-(R19-Pad2)" "Net-(J34-Pad2)"
+    "Net-(J34-Pad1)"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
