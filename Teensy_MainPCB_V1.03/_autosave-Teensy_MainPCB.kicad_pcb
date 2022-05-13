@@ -61,7 +61,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "teensy_gerber_1.03")
+      (outputdirectory "teensy_gerber_1.03/")
     )
   )
 

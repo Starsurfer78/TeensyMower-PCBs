@@ -1989,12 +1989,12 @@ $EndComp
 $Comp
 L power:+5V #PWR0101
 U 1 1 62537C10
-P 750 900
-F 0 "#PWR0101" H 750 750 50  0001 C CNN
-F 1 "+5V" V 749 1106 50  0000 C CNN
-F 2 "" H 750 900 50  0001 C CNN
-F 3 "" H 750 900 50  0001 C CNN
-	1    750  900 
+P 1313 1022
+F 0 "#PWR0101" H 1313 872 50  0001 C CNN
+F 1 "+5V" V 1312 1228 50  0000 C CNN
+F 2 "" H 1313 1022 50  0001 C CNN
+F 3 "" H 1313 1022 50  0001 C CNN
+	1    1313 1022
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -2025,7 +2025,7 @@ Wire Wire Line
 Wire Wire Line
 	5135 1680 5320 1680
 Wire Wire Line
-	1313 1026 1313 900 
+	1313 1026 1313 1022
 Wire Wire Line
 	5320 1680 5320 1026
 $Comp
@@ -2068,5 +2068,18 @@ Wire Wire Line
 	2019 3080 2019 4749
 Wire Wire Line
 	1313 1026 5320 1026
-Connection ~ 750  900 
+Connection ~ 1313 1022
+Wire Wire Line
+	1313 1022 1313 900 
+$Comp
+L RF_Module:ESP32-S2-WROVER U1
+U 1 1 627A1857
+P -2141 1704
+F 0 "U1" H -2141 3085 50  0000 C CNN
+F 1 "ESP32-S2-WROVER" H -2141 2994 50  0000 C CNN
+F 2 "RF_Module:ESP32-S2-WROVER" H -1391 554 50  0001 C CNN
+F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-s2-wroom_esp32-s2-wroom-i_datasheet_en.pdf" H -2441 904 50  0001 C CNN
+	1    -2141 1704
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
