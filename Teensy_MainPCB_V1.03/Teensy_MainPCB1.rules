@@ -1,0 +1,138 @@
+
+(rules PCB Teensy_MainPCB1
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (eu.mihosoft.freerouting.autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 3677)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.4)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.7)
+    )
+  )
+  (rule
+    (width 254.0)
+    (clear 254.2)
+    (clear 127.0 (type smd_to_turn_gap))
+    (clear 63.6 (type smd_smd))
+  )
+  (padstack "Via[0-1]_889:635_um"
+    (shape
+      (circle F.Cu 889.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 889.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_889:635_um" "Via[0-1]_889:635_um" default
+  )
+  (via 
+    "Via[0-1]_889:635_um-kicad_default" "Via[0-1]_889:635_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_889:635_um-24v" "Via[0-1]_889:635_um" 24v
+  )
+  (via 
+    "Via[0-1]_889:635_um-GND" "Via[0-1]_889:635_um" GND
+  )
+  (via 
+    "Via[0-1]_889:635_um-Power" "Via[0-1]_889:635_um" Power
+  )
+  (via_rule
+    default "Via[0-1]_889:635_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_889:635_um-kicad_default"
+  )
+  (via_rule
+    24v "Via[0-1]_889:635_um-24v"
+  )
+  (via_rule
+    GND "Via[0-1]_889:635_um-GND"
+  )
+  (via_rule
+    Power "Via[0-1]_889:635_um-Power"
+  )
+  (class default
+    SCL1 SDA1 pinMotorRightPWM pinMotorRightDir pinMotorLeftPWM pinMotorLeftDir pinMotorMowPWM pinMotorMowDir
+    pinMotorMowEnable pinBumperLeft pinBumperRight pinBuzzer pinButton pinRain pinPerimeterLeft pinPerimeterRight
+    pinBatterySwitch SCL0 SDA0 RX3 TX3 pinMotorLeftEnable pinChargeEnable SCL2
+    SDA2 pinMotorRightEnable pinOdometryRight pinOdometryLeft "Net-(J6-Pad1)" "Net-(J7-Pad1)" RX1 TX1
+    "Net-(BT1-Pad1)" pinSonarRightEcho pinSonarRightTrigger pinSonarLeftEcho pinSonarLeftTrigger CRX3 CTX3 RX5
+    TX5 FreeA17 "Net-(J23-Pad4)" "Net-(J23-Pad3)" "Net-(J28-Pad4)" "Net-(J28-Pad3)" "Net-(J28-Pad2)" "Net-(J28-Pad1)"
+    "unconnected-(U2-Pad5)" "unconnected-(U2-Pad6)" "unconnected-(U2-Pad8)" "Net-(J1-Pad2)" "Net-(J9-Pad3)" "Net-(J10-Pad3)" "Net-(J18-Pad1)" "Net-(J18-Pad2)"
+    "Net-(J20-Pad3)" "Net-(J20-Pad4)" "Net-(J20-Pad5)" "Net-(J21-Pad3)" "Net-(J22-Pad3)" "Net-(J23-Pad1)" "Net-(J23-Pad2)" "Net-(J29-Pad1)"
+    "Net-(J29-Pad2)" "Net-(J29-Pad3)" "Net-(J29-Pad4)" "unconnected-(J29-Pad5)" "Net-(J30-Pad2)" "Net-(J30-Pad3)" "Net-(J31-Pad1)" "Net-(R16-Pad2)"
+    "Net-(R17-Pad2)" "unconnected-(U1-Pad49)" "unconnected-(U1-Pad59)" "unconnected-(U1-Pad58)" "unconnected-(U1-Pad57)" "unconnected-(U1-Pad56)" "unconnected-(U1-Pad55)" "unconnected-(U1-Pad15)"
+    "unconnected-(U1-Pad60)" "unconnected-(U1-Pad65)" "unconnected-(U1-Pad61)" "unconnected-(U1-Pad64)" "unconnected-(U1-Pad63)" "unconnected-(U1-Pad62)" "unconnected-(U1-Pad51)" "unconnected-(U1-Pad53)"
+    "unconnected-(U1-Pad67)" "unconnected-(U1-Pad66)" "unconnected-(U3-Pad19)" "unconnected-(U3-Pad23)" "unconnected-(U3-Pad10)" "unconnected-(U3-Pad3)" "unconnected-(U3-Pad2)" "unconnected-(U3-Pad1)"
+    "Net-(J26-Pad1)" pinMotorRightBreak pinMotorLeftBreak pinMotorMowBreak
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 254.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 254.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class 24v
+    (clearance_class 24v)
+    (via_rule 24v)
+    (rule
+      (width 500.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class GND
+    GND
+    (clearance_class GND)
+    (via_rule GND)
+    (rule
+      (width 508.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class Power
+    +5V +3V3
+    (clearance_class Power)
+    (via_rule Power)
+    (rule
+      (width 508.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)

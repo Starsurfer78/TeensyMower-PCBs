@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.95,
-          "height": 1.95,
-          "width": 1.7
+          "drill": 0.762,
+          "height": 2.268,
+          "width": 1.524
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -48,7 +48,13 @@
           "min_clearance": 0.508
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
@@ -422,7 +428,7 @@
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
+        "track_width": 0.508,
         "via_diameter": 0.889,
         "via_drill": 0.635,
         "wire_width": 6.0
@@ -443,7 +449,7 @@
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.354,
+        "track_width": 0.508,
         "via_diameter": 0.889,
         "via_drill": 0.635,
         "wire_width": 6.0
@@ -459,7 +465,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "specctra_dsn": "Teensy_MainPCB_3.dsn",
+      "specctra_dsn": "Teensy_MainPCB1.dsn",
       "step": "",
       "vrml": ""
     },
@@ -496,7 +502,7 @@
       "model_mode": 0,
       "workbook_filename": ""
     },
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "empty.kicad_wks",
     "plot_directory": "./",
     "spice_adjust_passive_values": false,
     "spice_external_command": "spice \"%I\"",
