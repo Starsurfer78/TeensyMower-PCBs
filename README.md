@@ -20,11 +20,11 @@ Only a few Electronic Parts are needed.
 - Teensy 4.1
 - ESP32 DEV Kit V1
 
-Tested with MC33926 motor driver. Brushless Motordriver did not work at the Moment with Azuritber.
 
-![Vorschau Teensy PCB](https://github.com/Starsurfer78/T-Mow/blob/main/Teensy_MainPCB_V1.02/TeensyPCB_v1.02.jpg)
 
-![Vorschau Power PCB](https://github.com/Starsurfer78/T-Mow/blob/main/Power_PCB_v106/charge_pcb.jpg)
+![Vorschau Teensy PCB](https://raw.githubusercontent.com/Starsurfer78/T-Mow/main/Teensy_MainPCB_V1.03/Teensy_MainPCB.png)
+
+![Vorschau Power PCB](https://raw.githubusercontent.com/Starsurfer78/T-Mow/main/Power_PCB_v107/charge_pcb_1.jpg)
 
 Robomow RL2000:
 ![Vorschau Power PCB](https://github.com/Starsurfer78/T-Mow/blob/main/rl2000%20teensy%203.jpg)
