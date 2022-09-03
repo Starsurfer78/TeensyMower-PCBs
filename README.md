@@ -20,7 +20,7 @@ Only a few Electronic Parts are needed.
 - Teensy 4.1
 - ESP32 DEV Kit V1
 
-Tested with MC33926 motor driver. Brushless Motordriver did not work at the Moment with Azuritber.
+
 
 ![Vorschau Teensy PCB](https://raw.githubusercontent.com/Starsurfer78/T-Mow/main/Teensy_MainPCB_V1.03/Teensy_MainPCB.png)
 
