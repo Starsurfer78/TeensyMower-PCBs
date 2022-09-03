@@ -1,4 +1,4 @@
-20235843507780505
+20247510933732066
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -50743,12 +50743,26 @@ ESP32-C3
 27
 19
 Espressif
+ESP32-C3-WROOM-02U
+ESP32-C3-WROOM-02: https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf
+ESP32-C3
+0
+27
+19
+Espressif
 ESP32-DevKitC
 ESP32-DevKitC: https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/esp32/get-started-devkitc.html
 ESP32
 0
 38
 38
+Espressif
+ESP32-S2-DevKitM
+ESP32-S2 general-purpose development board
+ESP32-S2
+0
+42
+42
 Espressif
 ESP32-S2-MINI-1
 ESP32-S2-MINI-1 and ESP32-S2-MINI-1U: https://www.espressif.com/sites/default/files/documentation/esp32-s2-mini-1_esp32-s2-mini-1u_datasheet_en.pdf
@@ -86505,3 +86519,38 @@ Teensy_LC
 0
 39
 39
+teensy_library-master
+ESP32-DEVKIT-V1
+
+
+0
+30
+30
+teensy_library-master
+ESP32-DOIT-DEVKIT
+
+
+0
+36
+36
+teensy_library-master
+ESP32-EDVKIT-V1
+
+
+0
+30
+30
+teensy_library-master
+GY-521
+
+
+0
+8
+8
+teensy_library-master
+Teensy41
+
+
+0
+67
+67
