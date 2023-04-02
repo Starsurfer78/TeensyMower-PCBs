@@ -7,7 +7,11 @@ It doesn't matter if you want to convert a commercial mower or use a 3D printed 
 
 The TeensyMainPCB is the brain of the mower to which all sensors and motors are connected.
 The PowerPCB is responsible for the power supply and monitoring of the battery and the motors. 
-For your DIY project you need both boards.
+The Wifi SenderPCB is responsible for the perimeter cable and goes into the charging station of the mower.
+
+For your DIY project you need all 3 Boards.
+
+RTK GPS is not yet possible at the moment
 
 Only a few Electronic Parts are needed. 
 - JST-XH Connectors
@@ -20,11 +24,20 @@ Only a few Electronic Parts are needed.
 - Teensy 4.1
 - ESP32 DEV Kit V1
 
+Attention: 
+The PCB's are still under development.
+If you want to order your own PCBs, please check the forum first to see if there are any problems.
+Use the PCBs at your own risk, no liability is assumed.
+
+The PowerPCB 1.07 currently has errors and cannot be used!
+
 
 
 ![Vorschau Teensy PCB](https://raw.githubusercontent.com/Starsurfer78/T-Mow/main/Teensy_MainPCB_V1.03/Teensy_MainPCB.png)
 
 ![Vorschau Power PCB](https://raw.githubusercontent.com/Starsurfer78/T-Mow/main/Power_PCB_v107/charge_pcb_1.jpg)
+
+![Vorschau WIFI Senderf PCB](https://github.com/Starsurfer78/T-Mow/blob/main/Wifi_Sender/sender_V1.01/sender_V1.01.jpg)
 
 Robomow RL2000:
 ![Vorschau Power PCB](https://github.com/Starsurfer78/T-Mow/blob/main/rl2000%20teensy%203.jpg)
