@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "power_pcb-rescue")(type "Legacy")(uri "${KIPRJMOD}/power_pcb-rescue.lib")(options "")(descr ""))
+  (lib (name "Zimprich")(type "KiCad")(uri "${KIPRJMOD}/new_lib/library/Zimprich.kicad_sym")(options "")(descr ""))
+)

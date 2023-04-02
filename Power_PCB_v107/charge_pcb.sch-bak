@@ -25,7 +25,7 @@ F 3 "~" V 600 1710 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L charge_pcb-rescue:FUSE-Zimprich F1
+L charge_pcb-rescue:FUSE-Zimprich-charge_pcb-rescue F1
 U 1 1 60704371
 P 1250 1450
 F 0 "F1" H 1250 1690 50  0000 C CNN
@@ -38,7 +38,7 @@ $EndComp
 Wire Wire Line
 	600  2900 600  1850
 $Comp
-L charge_pcb-rescue:BC548BTA-dk_Transistors-Bipolar-BJT-Single Q1
+L charge_pcb-rescue:BC548BTA-dk_Transistors-Bipolar-BJT-Single-charge_pcb-rescue Q1
 U 1 1 60711074
 P 3350 2100
 F 0 "Q1" H 3538 2153 60  0000 L CNN
@@ -94,7 +94,7 @@ Connection ~ 3450 2900
 Wire Wire Line
 	4350 1950 4800 1950
 $Comp
-L charge_pcb-rescue:HEADER_2-Zimprich J3
+L charge_pcb-rescue:HEADER_2-Zimprich-charge_pcb-rescue J3
 U 1 1 607207B7
 P 6400 750
 F 0 "J3" V 6445 622 60  0000 R CNN
@@ -105,7 +105,7 @@ F 3 "" H 6400 750 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L charge_pcb-rescue:HEADER_2-Zimprich J2
+L charge_pcb-rescue:HEADER_2-Zimprich-charge_pcb-rescue J2
 U 1 1 60721ABE
 P 5800 750
 F 0 "J2" V 5845 622 60  0000 R CNN
@@ -116,7 +116,7 @@ F 3 "" H 5800 750 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L charge_pcb-rescue:FUSE-Zimprich F2
+L charge_pcb-rescue:FUSE-Zimprich-charge_pcb-rescue F2
 U 1 1 60732011
 P 6450 1100
 F 0 "F2" V 6350 900 50  0000 L CNN
@@ -186,7 +186,7 @@ Connection ~ 4800 2900
 Wire Wire Line
 	4800 2900 5150 2900
 $Comp
-L charge_pcb-rescue:BC548BTA-dk_Transistors-Bipolar-BJT-Single Q3
+L charge_pcb-rescue:BC548BTA-dk_Transistors-Bipolar-BJT-Single-charge_pcb-rescue Q3
 U 1 1 6073AD5E
 P 7800 2050
 F 0 "Q3" H 7988 2103 60  0000 L CNN
@@ -275,7 +275,7 @@ pinChargeEnable
 Wire Wire Line
 	600  1450 1000 1450
 $Comp
-L charge_pcb-rescue:DIODE-Lötpad_2,5mm D5
+L charge_pcb-rescue:DIODE-Lötpad_2,5mm-charge_pcb-rescue D5
 U 1 1 608CEAE9
 P 7450 1450
 F 0 "D5" H 7450 1642 40  0000 C CNN
@@ -496,7 +496,7 @@ F 3 "~" H 11850 550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L charge_pcb-rescue:GND-Lötpad_2,5mm #PWR0104
+L charge_pcb-rescue:GND-Lötpad_2,5mm-charge_pcb-rescue #PWR0104
 U 1 1 60746896
 P 11850 2100
 F 0 "#PWR0104" H 11850 1850 60  0001 C CNN
@@ -507,7 +507,7 @@ F 3 "" H 11850 2100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L charge_pcb-rescue:GND-Lötpad_2,5mm #PWR0103
+L charge_pcb-rescue:GND-Lötpad_2,5mm-charge_pcb-rescue #PWR0103
 U 1 1 60746674
 P 11850 1650
 F 0 "#PWR0103" H 11850 1400 60  0001 C CNN
@@ -518,7 +518,7 @@ F 3 "" H 11850 1650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L charge_pcb-rescue:GND-Lötpad_2,5mm #PWR0102
+L charge_pcb-rescue:GND-Lötpad_2,5mm-charge_pcb-rescue #PWR0102
 U 1 1 607463A7
 P 11850 1150
 F 0 "#PWR0102" H 11850 900 60  0001 C CNN
@@ -529,7 +529,7 @@ F 3 "" H 11850 1150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L charge_pcb-rescue:GND-Lötpad_2,5mm #PWR0101
+L charge_pcb-rescue:GND-Lötpad_2,5mm-charge_pcb-rescue #PWR0101
 U 1 1 6073E8B8
 P 11850 650
 F 0 "#PWR0101" H 11850 400 60  0001 C CNN
@@ -557,7 +557,7 @@ $EndComp
 Wire Wire Line
 	4050 1850 4050 1750
 $Comp
-L Sense_I2C:INA226 U1
+L charge_pcb-rescue:INA226-Sense_I2C U1
 U 1 1 60EF0E1B
 P 5700 2400
 F 0 "U1" V 5746 1972 50  0000 C CNN
@@ -614,7 +614,7 @@ Connection ~ 8900 1450
 Wire Wire Line
 	8900 1450 9015 1450
 $Comp
-L Sense_I2C:INA226 U2
+L charge_pcb-rescue:INA226-Sense_I2C U2
 U 1 1 60F60520
 P 9650 4950
 F 0 "U2" H 9650 5525 50  0000 C CNN
@@ -631,7 +631,7 @@ Wire Wire Line
 Wire Wire Line
 	1620 1450 2450 1450
 $Comp
-L charge_pcb-rescue:DIODE-Lötpad_2,5mm D2
+L charge_pcb-rescue:DIODE-Lötpad_2,5mm-charge_pcb-rescue D2
 U 1 1 6071023D
 P 2650 1450
 F 0 "D2" H 2650 1642 40  0000 C CNN
@@ -694,7 +694,7 @@ $EndComp
 Text GLabel 9200 4800 0    50   Input ~ 0
 V_Bat
 $Comp
-L Sense_I2C:INA226 U6
+L charge_pcb-rescue:INA226-Sense_I2C U6
 U 1 1 6100FDBD
 P 7850 4950
 F 0 "U6" H 7850 5525 50  0000 C CNN
@@ -759,7 +759,7 @@ $EndComp
 Text GLabel 7400 4800 0    50   Input ~ 0
 V_Bat
 $Comp
-L Sense_I2C:INA226 U5
+L charge_pcb-rescue:INA226-Sense_I2C U5
 U 1 1 610169E3
 P 6100 4950
 F 0 "U5" H 6100 5525 50  0000 C CNN
@@ -859,7 +859,7 @@ $EndComp
 Wire Wire Line
 	3600 5200 3600 5300
 $Comp
-L Sense_I2C:INA226 U3
+L charge_pcb-rescue:INA226-Sense_I2C U3
 U 1 1 6101EF8F
 P 2550 4950
 F 0 "U3" H 2550 5525 50  0000 C CNN
@@ -964,7 +964,7 @@ Wire Wire Line
 Wire Wire Line
 	4750 4850 4750 4050
 $Comp
-L Sense_I2C:INA226 U4
+L charge_pcb-rescue:INA226-Sense_I2C U4
 U 1 1 6101A2D2
 P 4300 4950
 F 0 "U4" H 4300 5525 50  0000 C CNN

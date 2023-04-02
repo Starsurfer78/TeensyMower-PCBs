@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name "digikey-footprints")(type "KiCad")(uri "C:/Users/info/Downloads/digikey-kicad-library-master/digikey-kicad-library-master/digikey-footprints.pretty")(options "")(descr ""))
+  (lib (name "Espressif")(type "KiCad")(uri "C:/Users/info/Downloads/kicad-libraries-main/kicad-libraries-main/footprints/Espressif.pretty")(options "")(descr ""))
+  (lib (name "teensy")(type "KiCad")(uri "C:/Users/info/Downloads/teensy.pretty-master/teensy.pretty-master")(options "")(descr ""))
+  (lib (name "Zimprich")(type "KiCad")(uri "C:/Users/info/OneDrive/Dokumente/GitHub/T-Mow/Wifi_Sender/new_lib/modules/Zimprich.pretty")(options "")(descr ""))
+  (lib (name "Current_sense")(type "KiCad")(uri "C:/Users/info/OneDrive/Dokumente/GitHub/T-Mow/Wifi_Sender/Current_sense.pretty")(options "")(descr ""))
+)
