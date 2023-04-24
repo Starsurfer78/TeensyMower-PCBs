@@ -1,5 +1,5 @@
 
-(rules PCB charge_pcb_1
+(rules PCB charge_pcb_2
   (snap_angle 
     fortyfive_degree
   )
@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 272)
+    (start_pass_no 189)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
