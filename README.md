@@ -1,6 +1,6 @@
 DIY Robot Lawn Mower Community: https://www.diy-robot-lawn-mower.com/
 
-# T-Mow - DIY Robot Lawn Mower (Teensy 4.1) 
+# Teensymower PCB's - DIY Robot Lawn Mower (Teensy 4.1) 
 
 The PCB's are designed to get you started on your own robotic lawnmower project. 
 It doesn't matter if you want to convert a commercial mower or use a 3D printed housing.
