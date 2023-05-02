@@ -29,13 +29,11 @@ The PCB's are still under development.
 If you want to order your own PCBs, please check the forum first to see if there are any problems.
 Use the PCBs at your own risk, no liability is assumed.
 
-The PowerPCB 1.07 currently has errors and cannot be used!
-
 
 
 ![Vorschau Teensy PCB](https://raw.githubusercontent.com/Starsurfer78/T-Mow/main/Teensy_MainPCB_V1.03/Teensy_MainPCB.png)
 
-![Vorschau Power PCB](https://raw.githubusercontent.com/Starsurfer78/T-Mow/main/Power_PCB_v107/charge_pcb_1.jpg)
+![Vorschau Power PCB](https://github.com/Starsurfer78/TeensyMower-PCBs/blob/main/Power_PCB_v108/charge_pcb_1.jpg)
 
 ![Vorschau WIFI Senderf PCB](https://github.com/Starsurfer78/T-Mow/blob/main/Wifi_Sender/sender_V1.01/sender_V1.01.jpg)
 
