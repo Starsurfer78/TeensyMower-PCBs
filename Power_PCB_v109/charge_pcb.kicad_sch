@@ -2603,7 +2603,7 @@
     (property "Reference" "D2" (id 0) (at 52.9336 56.896 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "LED" (id 1) (at 53.0352 58.928 90)
+    (property "Value" "LED 5mm" (id 1) (at 53.0352 58.928 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "LED_THT:LED_D1.8mm_W3.3mm_H2.4mm" (id 2) (at 50.8 57.9628 0)
@@ -3776,7 +3776,7 @@
       (reference "D1") (unit 1) (value "MBR1045") (footprint "Package_TO_SOT_THT:TO-220-2_Vertical")
     )
     (path "/00000000-0000-0000-0000-00006073c265"
-      (reference "D2") (unit 1) (value "LED") (footprint "LED_THT:LED_D1.8mm_W3.3mm_H2.4mm")
+      (reference "D2") (unit 1) (value "LED 5mm") (footprint "LED_THT:LED_D1.8mm_W3.3mm_H2.4mm")
     )
     (path "/069524d1-a3ab-4e3d-9f78-5590c2ce50ad"
       (reference "D3") (unit 1) (value "SB1240") (footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
