@@ -33,7 +33,7 @@ Use the PCBs at your own risk, no liability is assumed.
 
 ![Vorschau Teensy PCB](https://raw.githubusercontent.com/Starsurfer78/T-Mow/main/Teensy_MainPCB_V1.03/Teensy_MainPCB.png)
 
-![Vorschau Power PCB](https://github.com/Starsurfer78/TeensyMower-PCBs/blob/main/Power_PCB_v108/charge_pcb_1.jpg)
+![Vorschau Power PCB](https://github.com/Starsurfer78/TeensyMower-PCBs/blob/main/Power_PCB_v109/charge_pcb.jpg))
 
 ![Vorschau WIFI Senderf PCB](https://github.com/Starsurfer78/T-Mow/blob/main/Wifi_Sender/sender_V1.01/sender_V1.01.jpg)
 
