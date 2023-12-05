@@ -6,7 +6,7 @@
 
   (title_block
     (title "PowerPCB")
-    (date "2023-11-09")
+    (date "2023-12-05")
     (rev "v1.09")
     (comment 1 "Redesign by S.D original by Bernard")
     (comment 2 "Designed for TeensyMower")
@@ -2603,7 +2603,7 @@
     (property "Reference" "D2" (id 0) (at 52.9336 56.896 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "LED 5mm" (id 1) (at 53.0352 58.928 90)
+    (property "Value" "LED" (id 1) (at 53.0352 58.928 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "LED_THT:LED_D1.8mm_W3.3mm_H2.4mm" (id 2) (at 50.8 57.9628 0)
@@ -2867,7 +2867,7 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060ef0e1b)
     (property "Reference" "U3" (id 0) (at 155.6512 59.7916 90))
-    (property "Value" "INA226" (id 1) (at 155.6512 62.103 90))
+    (property "Value" "INA Charge" (id 1) (at 155.6512 62.103 90))
     (property "Footprint" "Current_sense:INA226" (id 2) (at 133.35 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3776,7 +3776,7 @@
       (reference "D1") (unit 1) (value "MBR1045") (footprint "Package_TO_SOT_THT:TO-220-2_Vertical")
     )
     (path "/00000000-0000-0000-0000-00006073c265"
-      (reference "D2") (unit 1) (value "LED 5mm") (footprint "LED_THT:LED_D1.8mm_W3.3mm_H2.4mm")
+      (reference "D2") (unit 1) (value "LED") (footprint "LED_THT:LED_D1.8mm_W3.3mm_H2.4mm")
     )
     (path "/069524d1-a3ab-4e3d-9f78-5590c2ce50ad"
       (reference "D3") (unit 1) (value "SB1240") (footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
@@ -3899,7 +3899,7 @@
       (reference "U2") (unit 1) (value "INA226") (footprint "Current_sense:INA226")
     )
     (path "/00000000-0000-0000-0000-000060ef0e1b"
-      (reference "U3") (unit 1) (value "INA226") (footprint "Current_sense:INA226")
+      (reference "U3") (unit 1) (value "INA Charge") (footprint "Current_sense:INA226")
     )
     (path "/00000000-0000-0000-0000-0000610169e3"
       (reference "U4") (unit 1) (value "INA226") (footprint "Current_sense:INA226")
