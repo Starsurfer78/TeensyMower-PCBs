@@ -1,0 +1,50 @@
+.title KiCad schematic
+D2 GND Net-_D2-Pad2_ LED
+F1 Net-_BT1-Pad1_ V_CHARGE 5A
+D1 V_CHARGE GND MBR1045
+BT1 Net-_BT1-Pad1_ GND Charge
+R1 V_CHARGE Net-_D2-Pad2_ 4.7kO
+D3 Net-_D3-Pad1_ V_CHARGE SB1240
+R3 Net-_Q1-Pad2_ pinChargeEnable 4k7
+R2 pinChargeEnable GND 4k7
+D9 Net-_D9-Pad1_ Net-_D9-Pad2_ MBR1045
+J10 GND Net-_D10-Pad1_ Mot_Left
+D10 Net-_D10-Pad1_ Net-_D10-Pad2_ MBR1045
+U6 unconnected-_U6-Pad1_ unconnected-_U6-Pad2_ V_Bat unconnected-_U6-Pad4_ SCL0 SDA0 GND +3V3 V_Bat Net-_D10-Pad2_ INA226
+U3 unconnected-_U3-Pad1_ unconnected-_U3-Pad2_ V_CHARGE unconnected-_U3-Pad4_ SCL0 SDA0 GND +3V3 Net-_JP1-Pad2_ Net-_J4-Pad1_ INA226
+Q2 Net-_Q1-Pad1_ Net-_JP1-Pad2_ Net-_D3-Pad1_ IRF9540N
+JP1 Net-_D3-Pad1_ Net-_JP1-Pad2_ Jumper Charge
+J4 Net-_J4-Pad1_ GND Battery
+J6 Net-_J4-Pad1_ Net-_F2-Pad1_ Power Switch
+Q1 Net-_Q1-Pad1_ Net-_Q1-Pad2_ GND BC547C
+R4 Net-_D3-Pad1_ Net-_Q1-Pad1_ 4k7
+J11 GND V_Bat DC/DC1
+J12 GND V_Bat DC/DC2
+C1 V_Bat GND 100uF
+Q4 Net-_J9-Pad1_ V_Bat Net-_D5-Pad1_ IRF9540N
+H1 GND MountingHole_Pad
+H2 GND MountingHole_Pad
+H3 GND MountingHole_Pad
+H4 GND MountingHole_Pad
+U1 unconnected-_U1-Pad1_ unconnected-_U1-Pad2_ V_Bat unconnected-_U1-Pad4_ SCL1 SDA1 GND +3V3 V_Bat Net-_D6-Pad2_ INA226
+U2 unconnected-_U2-Pad1_ unconnected-_U2-Pad2_ V_Bat unconnected-_U2-Pad4_ SCL1 SDA1 GND +3V3 V_Bat Net-_D7-Pad2_ INA226
+J1 GND Net-_D6-Pad1_ Mow3
+D6 Net-_D6-Pad1_ Net-_D6-Pad2_ MBR1045
+U5 unconnected-_U5-Pad1_ unconnected-_U5-Pad2_ V_Bat unconnected-_U5-Pad4_ SCL0 SDA0 GND +3V3 V_Bat Net-_D9-Pad2_ INA226
+J7 GND Net-_D8-Pad1_ Mow1
+D8 Net-_D8-Pad1_ Net-_D8-Pad2_ MBR1045
+J8 GND Net-_D9-Pad1_ Mot_Right
+R7 Net-_D5-Pad1_ Net-_J9-Pad1_ 4k7
+D4 Net-_D4-Pad1_ GND MBR1045
+Q3 Net-_J9-Pad1_ Net-_Q3-Pad2_ GND BC547C
+J9 Net-_J9-Pad1_ GND Start
+D5 Net-_D5-Pad1_ Net-_D4-Pad1_ SB1240
+F2 Net-_F2-Pad1_ Net-_D4-Pad1_ 10A
+R6 pinBatterySwitch Net-_Q3-Pad2_ 4k7
+R5 pinBatterySwitch GND 4k7
+U4 unconnected-_U4-Pad1_ unconnected-_U4-Pad2_ V_Bat unconnected-_U4-Pad4_ SCL1 SDA1 GND +3V3 V_Bat Net-_D8-Pad2_ INA226
+J3 GND Net-_D7-Pad1_ Mow2
+J5 pinBatterySwitch pinChargeEnable Main_PCB2
+J2 SCL1 SDA1 SCL0 SDA0 GND +3V3 Main_PCB1
+D7 Net-_D7-Pad1_ Net-_D7-Pad2_ MBR1045
+.end
