@@ -1,4 +1,11 @@
-21773330283500820
+21874649618121125
+AdafruitPCA9685
+Adafruit PCA9685 rev C
+
+
+0
+62
+24
 Aesthetics
 BREADBOARD_SPACING
 BREADBOARD SPACING
@@ -58967,6 +58974,125 @@ L_Toroid Vertical series Radial pin pitch 31.80mm  length 67.6mm width 36.1mm Vi
 0
 2
 2
+JS_Connectors
+BatteryHolder_AAA_2X
+
+
+0
+2
+2
+JS_Connectors
+MicroSD
+
+
+0
+13
+10
+JS_Devices
+K78xx
+
+
+0
+3
+3
+JS_Devices
+RGB_LED_CUBE_PART
+
+
+0
+3
+3
+JS_Displays
+DOGM128E
+
+
+0
+26
+26
+JS_Displays
+LCD_ILI9341
+
+
+0
+18
+18
+JS_ElectroMechanical
+BUZZER
+
+
+0
+2
+2
+JS_ElectroMechanical
+Button_SMD_5.2mm
+Low-profile SMD Tactile Switch, https://www.e-switch.com/system/asset/product_line/data_sheet/165/TL3342.pdf
+SPST Tactile Switch
+0
+4
+2
+JS_ElectroMechanical
+Button_THT_6mm
+
+
+0
+4
+2
+JS_ElectroMechanical
+RotaryEncoder
+
+
+0
+7
+7
+JS_Logos
+LabHelper
+
+
+0
+0
+0
+JS_Logos
+MikroBus
+
+
+0
+0
+0
+JS_Logos
+Project_SmartHome
+
+
+0
+0
+0
+JS_PackagesSMD
+HCLGA-10L_L2.5mm_W2.5mm_H1mm
+
+
+0
+10
+10
+JS_PackagesSMD
+HLGA-6L_L2mm_W2mm_H0.9mm
+
+
+0
+6
+6
+JS_PackagesSMD
+MultiPowerSO-30
+
+
+0
+33
+33
+JS_Wireless
+ESP8266
+
+
+0
+8
+8
 Jumper
 SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm
 SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 2 copper strips
@@ -60626,6 +60752,27 @@ Yellow 5381 Series LED
 0
 2
 2
+MCU_RaspberryPi_and_Boards
+Crystal_SMD_HC49-US
+SMD Crystal HC-49-SD http://cdn-reichelt.de/documents/datenblatt/B400/xxx-HC49-SMD.pdf, 11.4x4.7mm^2 package
+SMD SMT crystal
+0
+2
+2
+MCU_RaspberryPi_and_Boards
+RP2040-QFN-56
+QFN, 56 Pin (http://www.cypress.com/file/416486/download#page=40), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
+QFN DFN_QFN
+0
+70
+57
+MCU_RaspberryPi_and_Boards
+RPi_Pico_SMD_TH
+Through hole straight pin header, 2x20, 2.54mm pitch, double rows
+Through hole pin header THT 2x20 2.54mm double row
+0
+86
+43
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -92980,6 +93127,223 @@ ESP32-DOIT-DEVKIT
 0
 36
 36
+jwm_kicad_footprints_misc
+Arduino_Nano_WithMFHeadersAnd3DModel
+Arduino Nano, http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf
+Arduino Nano
+0
+30
+30
+jwm_kicad_footprints_misc
+C_Disc_D5.0mm_W2.5mm_P2.50mm_LZX
+C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=5*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf
+C Disc series Radial pin pitch 2.50mm  diameter 5mm width 2.5mm Capacitor
+0
+2
+2
+jwm_kicad_footprints_misc
+D_P7.62mm_Horizontal_LZX
+Diode, DO-34_SOD68 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=3.04*1.6mm^2, , https://www.nxp.com/docs/en/data-sheet/KTY83_SER.pdf
+Diode DO-34_SOD68 series Axial Horizontal pin pitch 7.62mm  length 3.04mm diameter 1.6mm
+0
+2
+2
+jwm_kicad_footprints_misc
+ESP32_Devkit_V1_DOIT_JWM
+ESPWROOM32, ESP32, 30 GPIOs version
+
+0
+30
+30
+jwm_kicad_footprints_misc
+ESP32_Devkit_V1_DOIT_JWM_LessSilk
+ESPWROOM32, ESP32, 30 GPIOs version
+
+0
+30
+30
+jwm_kicad_footprints_misc
+IDC-Header_2x05_P2.54mm_Vertical_EurorackPower
+Through hole straight IDC box header, 2x05, 2.54mm pitch, double rows, for eurorack power
+Through hole IDC box header THT 2x05 2.54mm double row eurorack power
+0
+10
+10
+jwm_kicad_footprints_misc
+IDC-Header_2x08_P2.54mm_Vertical_EurorackPower
+Through hole straight IDC box header, 2x08, 2.54mm pitch, double rows, for eurorack power
+Through hole IDC box header THT 2x08 2.54mm double row eurorack power
+0
+16
+16
+jwm_kicad_footprints_misc
+INA3221_Module
+
+
+0
+17
+15
+jwm_kicad_footprints_misc
+INA3221_Module_P2.54mm
+INA3221 Module with holes for using P2.54mm pin headers
+
+0
+22
+15
+jwm_kicad_footprints_misc
+INA3221_Module_P2.54mm_NoVPU_NoExtraGnds
+INA3221 Module with holes for using P2.54mm pin headers
+
+0
+17
+14
+jwm_kicad_footprints_misc
+Jack_3.5mm_CUI_SJ1-3535NG_Horizontal_With3DModel
+TRS 3.5mm, horizontal, through-hole, with switch, https://www.cui.com/product/resource/sj1-353xng.pdf
+TRS audio jack stereo horizontal
+0
+5
+5
+jwm_kicad_footprints_misc
+Jack_3.5mm_QingPu_WQP-PJ302M_Horizontal
+TRS 3.5mm, horizontal, PCB mount, WQP-PJ302M, (http://www.qingpu-electronics.com/en/products/WQP-PJ302M-57.html)
+WQP-PJ302M TRS 3.5mm mono horizontal qingpu jack
+0
+3
+3
+jwm_kicad_footprints_misc
+Jack_3.5mm_QingPu_WQP-PJ302M_Horizontal_CircularHoles
+TRS 3.5mm, horizontal, PCB mount, WQP-PJ302M, circular holes (http://www.qingpu-electronics.com/en/products/WQP-PJ302M-57.html)
+WQP-PJ302M TRS 3.5mm mono horizontal qingpu jack
+0
+3
+3
+jwm_kicad_footprints_misc
+Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles_With3DModel
+TRS 3.5mm, vertical, Thonkiconn, PCB mount, (http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html)
+WQP-PJ398SM WQP-PJ301M-12 TRS 3.5mm mono vertical jack thonkiconn qingpu
+0
+3
+3
+jwm_kicad_footprints_misc
+PinHeader_2x05_P2.54mm_Vertical_EurorackPower
+Through hole straight pin header, 2x05, 2.54mm pitch, double rows
+Through hole pin header THT 2x05 2.54mm double row
+0
+10
+10
+jwm_kicad_footprints_misc
+PinHeader_2x08_P2.54mm_Vertical_EurorackPower
+Through hole straight pin header, 2x08, 2.54mm pitch, double rows
+Through hole pin header THT 2x08 2.54mm double row
+0
+16
+16
+jwm_kicad_footprints_misc
+PinSocket_1x04_P2.54mm_Vertical_NoSilk
+Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x04 2.54mm single row
+0
+4
+4
+jwm_kicad_footprints_misc
+PinSocket_1x06_P2.54mm_Vertical_NoSilk
+Through hole straight socket strip, 1x06, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x06 2.54mm single row
+0
+6
+6
+jwm_kicad_footprints_misc
+PinSocket_1x09_P2.54mm_Vertical_NoSilk
+Through hole straight socket strip, 1x09, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x09 2.54mm single row
+0
+9
+9
+jwm_kicad_footprints_misc
+PinSocket_1x15_P2.54mm_Vertical_NoSilk
+Through hole straight socket strip, 1x15, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x15 2.54mm single row
+0
+15
+15
+jwm_kicad_footprints_misc
+Potentiometer_Alpha_RD901F-20_Single_Horizontal_CircularHoles
+Potentiometer, horizontal, 9mm, single, http://www.taiwanalpha.com.tw/downloads?target=products&id=113
+potentiometer horizontal 9mm single alpha RD901F-20
+0
+3
+3
+jwm_kicad_footprints_misc
+Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_With3DModel
+Potentiometer, vertical, 9mm, single, http://www.taiwanalpha.com.tw/downloads?target=products&id=113
+potentiometer vertical 9mm single
+0
+5
+3
+jwm_kicad_footprints_misc
+RCA-Phono_CUI-Devices_RCJ-01X_Horizontal
+RCA Phono Connector, vertical, PCB mount, RCJ-02X, (https://www.cuidevices.com/product/interconnect/connectors/rca-connectors/rcj-02-series)
+RCJ-021 RCJ-022 RCJ-023 RCJ-024 RCJ-025 RCJ-026 RCJ-027 RCA phono jack connector CUI
+0
+4
+2
+jwm_kicad_footprints_misc
+RCA-Phono_CUI-Devices_RCJ-01X_or_RCJ-02X
+RCA Phono Connector, vertical, PCB mount, RCJ-02X, (https://www.cuidevices.com/product/interconnect/connectors/rca-connectors/rcj-02-series)
+RCJ-021 RCJ-022 RCJ-023 RCJ-024 RCJ-025 RCJ-026 RCJ-027 RCA phono jack connector CUI
+0
+4
+2
+jwm_kicad_footprints_misc
+RCA-Phono_CUI-Devices_RCJ-01X_or_RCJ-02X_alt2
+RCA Phono Connector, vertical, PCB mount, RCJ-02X, (https://www.cuidevices.com/product/interconnect/connectors/rca-connectors/rcj-02-series)
+RCJ-021 RCJ-022 RCJ-023 RCJ-024 RCJ-025 RCJ-026 RCJ-027 RCA phono jack connector CUI
+0
+5
+2
+jwm_kicad_footprints_misc
+RCA-Phono_CUI-Devices_RCJ-02X_Vertical
+RCA Phono Connector, vertical, PCB mount, RCJ-02X, (https://www.cuidevices.com/product/interconnect/connectors/rca-connectors/rcj-02-series)
+RCJ-021 RCJ-022 RCJ-023 RCJ-024 RCJ-025 RCJ-026 RCJ-027 RCA phono jack connector CUI
+0
+3
+2
+jwm_kicad_footprints_misc
+RCA-Phono_CUI-Devices_RCJ-02X_Vertical_InvertedPinNumbers
+RCA Phono Connector, vertical, PCB mount, RCJ-02X, (https://www.cuidevices.com/product/interconnect/connectors/rca-connectors/rcj-02-series)
+RCJ-021 RCJ-022 RCJ-023 RCJ-024 RCJ-025 RCJ-026 RCJ-027 RCA phono jack connector CUI
+0
+3
+2
+jwm_kicad_footprints_misc
+R_Axial_P7.62mm_Horizontal_LZX
+Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
+Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm
+0
+2
+2
+jwm_kicad_footprints_misc
+SSD1306_I2C_OLED_Module_0.96_inch
+Through hole straight pin header, 1x04, 2.54mm pitch, single row
+Through hole pin header THT 1x04 2.54mm single row
+0
+4
+4
+jwm_kicad_footprints_misc
+Switch_Toggle_Mountain-Switch_10TF230_Horizontal
+Switch, Toggle, Mountain Switch 10TF230, Horizontal (https://www.mouser.com/datasheet/2/221/MS-100532-1173925.pdf)
+switch toggle mountain 10TF230 horizontal
+0
+8
+3
+jwm_kicad_footprints_misc
+misc_reference_for_test_and_whatever
+
+
+0
+3
+3
 teensy_library-master
 ESP32-DEVKIT-V1
 
